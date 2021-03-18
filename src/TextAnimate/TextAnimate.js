@@ -36,3 +36,5 @@ export function TextAnimate({
     </AnimatedText>
   );
 }
+
+export default TextAnimate;
