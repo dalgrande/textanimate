@@ -1,0 +1,17 @@
+{
+  "name": "textanimate",
+  "version": "0.0.1",
+  "description": "It's a package to easily animate texts in React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text",
+    "animation",
+    "react",
+    "text-animation."
+  ],
+  "author": "Frederico Dal Grande <dalgrande@gmail.com> (fredericodalgrande.com)",
+  "license": "MIT"
+}
