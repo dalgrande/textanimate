@@ -1,1 +1,1 @@
-export { default } from "./lib/TextAnimate/TextAnimate";
+export { default } from "./lib/Effect1/Effect1";

@@ -4,7 +4,7 @@ import { AnimatedText } from "./AnimatedText.styles";
 
 import { EffectGear } from "./EffectGear";
 
-export function TextAnimate({
+export function Effect1({
   children,
   loop = true,
   lineColor = "black",
@@ -37,4 +37,4 @@ export function TextAnimate({
   );
 }
 
-export default TextAnimate;
+export default Effect1;
