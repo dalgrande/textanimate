@@ -4,7 +4,8 @@ export const AnimatedText = styled.div`
   .ml6 {
     position: relative;
     font-weight: 900;
-    font-size: 3.3em;
+    font-size: ${(props) => props.textSize}em;
+    color: ${(props) => props.color};
   }
 
   .ml6 .text-wrapper {
@@ -19,5 +20,6 @@ export const AnimatedText = styled.div`
   .ml6 .letter {
     display: inline-block;
     line-height: 1em;
+    color: ${(props) => props.color};
   }
 `;

@@ -4,7 +4,8 @@ export const AnimatedText = styled.div`
   .ml10 {
     position: relative;
     font-weight: 900;
-    font-size: 4em;
+    font-size: ${(props) => props.textSize}em;
+    color: ${(props) => props.color};
   }
 
   .ml10 .text-wrapper {
@@ -20,5 +21,6 @@ export const AnimatedText = styled.div`
     display: inline-block;
     line-height: 1em;
     transform-origin: 0 0;
+    color: ${(props) => props.color};
   }
 `;

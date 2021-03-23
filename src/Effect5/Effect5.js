@@ -5,7 +5,9 @@ import { AnimatedText } from "./AnimatedText.styles";
 import { EffectGear } from "./EffectGear";
 
 export function Effect5({
-  children,
+  text1 = "1",
+  text2 = "2",
+  text3 = "3",
   loop = true,
   color = "black",
   textSize = 1,
@@ -22,9 +24,9 @@ export function Effect5({
       <h1 class="ml5">
         <span class="text-wrapper">
           <span class="line line1"></span>
-          <span class="letters letters-left">Signal</span>
-          <span class="letters ampersand">&amp;</span>
-          <span class="letters letters-right">Noise</span>
+          <span class="letters letters-left">{text1}</span>
+          <span class="letters ampersand">{text2}</span>
+          <span class="letters letters-right">{text3}</span>
           <span class="line line2"></span>
         </span>
       </h1>

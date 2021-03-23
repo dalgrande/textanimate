@@ -19,7 +19,7 @@ export function Effect13({
   }, []);
   return (
     <AnimatedText color={color} textSize={textSize}>
-      <h1 class="ml13">Rising Strong</h1>
+      <h1 class="ml13">{children}</h1>
     </AnimatedText>
   );
 }

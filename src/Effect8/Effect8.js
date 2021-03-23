@@ -5,7 +5,8 @@ import { AnimatedText } from "./AnimatedText.styles";
 import { EffectGear } from "./EffectGear";
 
 export function Effect8({
-  children,
+  text1 = "1",
+  text2 = "2",
   loop = true,
   color = "black",
   textSize = 1,
@@ -23,8 +24,8 @@ export function Effect8({
         <span class="circle circle-white"></span>
         <span class="circle circle-dark">
           <span class="letters-container">
-            <span class="letters letters-left">Hi</span>
-            <span class="letters bang">!</span>
+            <span class="letters letters-left">{text1}</span>
+            <span class="letters bang">{text2}</span>
           </span>
         </span>
         <span class="circle circle-container">

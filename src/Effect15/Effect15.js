@@ -5,7 +5,8 @@ import { AnimatedText } from "./AnimatedText.styles";
 import { EffectGear } from "./EffectGear";
 
 export function Effect15({
-  children,
+  text1 = "1",
+  text2 = "2",
   loop = true,
   color = "black",
   textSize = 1,
@@ -20,8 +21,8 @@ export function Effect15({
   return (
     <AnimatedText color={color} textSize={textSize}>
       <h1 class="ml15">
-        <span class="word">Out</span>
-        <span class="word">now</span>
+        <span class="word">{text1}</span>
+        <span class="word">{text2}</span>
       </h1>
     </AnimatedText>
   );

@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const AnimatedText = styled.h1`
+export const AnimatedText = styled.div`
   .ml5 {
     position: relative;
     font-weight: 300;
-    font-size: 4.5em;
-    color: #402d2d;
+    font-size: ${(props) => props.textSize}em;
+    color: ${(props) => props.color};
   }
 
   .ml5 .text-wrapper {
@@ -25,7 +25,7 @@ export const AnimatedText = styled.h1`
     margin: auto;
     height: 3px;
     width: 100%;
-    background-color: #402d2d;
+    background-color: ${(props) => props.lineColor};
     transform-origin: 0.5 0;
   }
 

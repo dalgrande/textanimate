@@ -1,1 +1,16 @@
 export { default } from "./lib/Effect1/Effect1";
+export { default } from "./lib/Effect2/Effect2";
+export { default } from "./lib/Effect3/Effect3";
+export { default } from "./lib/Effect4/Effect4";
+export { default } from "./lib/Effect5/Effect5";
+export { default } from "./lib/Effect6/Effect6";
+export { default } from "./lib/Effect7/Effect7";
+export { default } from "./lib/Effect8/Effect8";
+export { default } from "./lib/Effect9/Effect9";
+export { default } from "./lib/Effect10/Effect10";
+export { default } from "./lib/Effect11/Effect11";
+export { default } from "./lib/Effect12/Effect12";
+export { default } from "./lib/Effect13/Effect13";
+export { default } from "./lib/Effect14/Effect14";
+export { default } from "./lib/Effect15/Effect15";
+export { default } from "./lib/Effect16/Effect16";

@@ -4,7 +4,7 @@ export const AnimatedText = styled.div`
   .ml9 {
     position: relative;
     font-weight: 200;
-    font-size: 4em;
+    font-size: ${(props) => props.textSize}em;
   }
 
   .ml9 .text-wrapper {
@@ -20,5 +20,6 @@ export const AnimatedText = styled.div`
     transform-origin: 50% 100%;
     display: inline-block;
     line-height: 1em;
+    color: ${(props) => props.color};
   }
 `;

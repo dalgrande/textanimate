@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const AnimatedText = styled.h1`
   .ml11 {
     font-weight: 700;
-    font-size: 3.5em;
+    font-size: ${(props) => props.textSize}em;
+    color: ${(props) => props.color};
   }
 
   .ml11 .text-wrapper {
@@ -20,7 +21,7 @@ export const AnimatedText = styled.h1`
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: black;
+    background-color: ${(props) => props.lineColor};
     transform-origin: 0 50%;
   }
 
@@ -32,5 +33,6 @@ export const AnimatedText = styled.h1`
   .ml11 .letter {
     display: inline-block;
     line-height: 1em;
+    color: ${(props) => props.color};
   }
 `;

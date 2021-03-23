@@ -5,7 +5,9 @@ import { AnimatedText } from "./AnimatedText.styles";
 import { EffectGear } from "./EffectGear";
 
 export function Effect4({
-  children,
+  text1 = "ready",
+  text2 = "set",
+  text3 = "go!",
   loop = true,
 
   color = "black",
@@ -21,9 +23,9 @@ export function Effect4({
   return (
     <AnimatedText color={color} textSize={textSize}>
       <h1 class="ml4">
-        <span class="letters letters-1">Ready</span>
-        <span class="letters letters-2">Set</span>
-        <span class="letters letters-3">Go!</span>
+        <span class="letters letters-1">{text1}</span>
+        <span class="letters letters-2">{text2}</span>
+        <span class="letters letters-3">{text3}</span>
       </h1>
     </AnimatedText>
   );

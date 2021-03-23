@@ -4,6 +4,7 @@ export const AnimatedText = styled.h1`
   .ml1 {
     font-weight: 900;
     font-size: ${(props) => props.textSize}em;
+    color: ${(props) => props.color};
   }
 
   .ml1 .letter {

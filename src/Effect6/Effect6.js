@@ -21,7 +21,7 @@ export function Effect6({
     <AnimatedText color={color} textSize={textSize}>
       <h1 class="ml6">
         <span class="text-wrapper">
-          <span class="letters">Beautiful Questions</span>
+          <span class="letters">{children}</span>
         </span>
       </h1>
     </AnimatedText>

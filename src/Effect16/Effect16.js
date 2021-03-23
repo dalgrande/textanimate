@@ -19,7 +19,7 @@ export function Effect16({
   }, []);
   return (
     <AnimatedText color={color} textSize={textSize}>
-      <h1 class="ml16">Made with love</h1>
+      <h1 class="ml16">{children}</h1>
     </AnimatedText>
   );
 }

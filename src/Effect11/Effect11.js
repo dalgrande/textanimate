@@ -22,7 +22,7 @@ export function Effect11({
       <h1 class="ml11">
         <span class="text-wrapper">
           <span class="line line1"></span>
-          <span class="letters">Hello Goodbye</span>
+          <span class="letters">{children}</span>
         </span>
       </h1>
     </AnimatedText>

@@ -19,7 +19,7 @@ export function Effect12({
   }, []);
   return (
     <AnimatedText color={color} textSize={textSize}>
-      <h1 class="ml12">A new production</h1>
+      <h1 class="ml12">{children}</h1>
     </AnimatedText>
   );
 }

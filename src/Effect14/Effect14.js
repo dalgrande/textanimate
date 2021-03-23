@@ -21,7 +21,7 @@ export function Effect14({
     <AnimatedText color={color} textSize={textSize}>
       <h1 class="ml14">
         <span class="text-wrapper">
-          <span class="letters">Find Your Element</span>
+          <span class="letters">{children}</span>
           <span class="line"></span>
         </span>
       </h1>

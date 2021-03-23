@@ -21,7 +21,7 @@ export function Effect7({
     <AnimatedText color={color} textSize={textSize}>
       <h1 class="ml10">
         <span class="text-wrapper">
-          <span class="letters">Domino Dreams</span>
+          <span class="letters">{children}</span>
         </span>
       </h1>
     </AnimatedText>
