@@ -4,7 +4,7 @@ It's a package to easily animate texts in React. Inspired in Moving Letters a wo
 ## Installation:
 
 ```npm i dalgrande-react-textanimate```
-Or
+or
 ```yarn add dalgrande-react-textanimate```
 
 
