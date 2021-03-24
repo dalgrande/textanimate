@@ -3,7 +3,7 @@ It's a package to easily animate texts in React. Inspired in Moving Letters a wo
 
 ## Usage:
 
-`
+```
 import { Effect3 } from "dalgrande-react-textanimate";
 
 function App() {
@@ -23,4 +23,4 @@ function App() {
 }
 
 export default App;
-`
+```
