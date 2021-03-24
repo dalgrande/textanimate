@@ -4,7 +4,7 @@ import { AnimatedText } from "./AnimatedText.styles";
 
 import { EffectGear } from "./EffectGear";
 
-export function Effect7({
+export function Effect10({
   children,
   loop = true,
   color = "black",
@@ -28,4 +28,4 @@ export function Effect7({
   );
 }
 
-export default Effect7;
+export default Effect10;
