@@ -10,6 +10,8 @@ or
 
 ## Usage:
 
+Except the Effect 8, all other accept 4 ```props``` which are ```loop, lineColor, color, textSize``` and those who have more than one text you should pass ```text1, text2, ....``` also as props. The others works with ```children```.
+
 ```
 import { Effect3 } from "dalgrande-react-textanimate";
 
