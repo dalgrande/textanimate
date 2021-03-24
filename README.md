@@ -20,8 +20,7 @@ function App() {
         loop={true}
         lineColor="olive"
         color="olive"
-        textSize={1}
-        textShadow="none"
+        textSize={1}        
       >
         Effect 3
       </Effect3>
